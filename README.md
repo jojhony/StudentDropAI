@@ -84,42 +84,35 @@ Student Intervention Recommendation
 ```
 StudentDrop-AI/
 │
-├── notebooks/
+├── core/
 │   │
-│   ├── 01_Data_Understanding.ipynb
-│   ├── 02_EDA.ipynb
-│   ├── 03_Data_Preprocessing.ipynb
-│   ├── 04_Model_Training.ipynb
-│   └── 05_Model_Evaluation.ipynb
-│
-├── dataset/
-│   │
-│   ├── raw/
-│   ├── processed/
-│   └── data_dictionary.xlsx
+│   ├── explain.py/
+│   ├── predictor.py/
+│   ├── preprocessing.py/
+│   └── recomendation.py/
 │
 ├── models/
 │   │
-│   ├── trained_model.pkl
-│   ├── scaler.pkl
-│   └── feature_encoder.pkl
-│
-├── app/
-│   │
-│   ├── predictor_engine.py
-│   ├── preprocessing.py
-│   └── prediction_pipeline.py
+│   └── tuned_binary_ensemble.pkl
 │
 ├── reports/
 │   │
 │   ├── Data_Dictionary.pdf
 │   ├── Pillar_5_Capstone_Project.pdf
-│   ├── StudentDrop_Business_Deck.pdf
-│   └── StudentDrop_Technical_Deck.pdf
+│   ├── StudentDrop_Business Deck.pdf
+│   └── StudentDrop_Technical Deck.pdf
+│
+├── Student dropout.xlsx
+│
+├── student-drop-out.ipynb
+│
+├── app.py
 │
 ├── requirements.txt
 │
 ├── README.md
+│
+├── .gitignore
 │
 └── LICENSE
 ```
