@@ -385,7 +385,7 @@ Data science and technical reviewers
 Clone repository:
 
 ```bash
-git clone https://github.com/yourusername/StudentDrop-AI.git
+git clone https://github.com/jojhony/StudentDropAI.git
 ```
 
 Install dependencies:
@@ -397,8 +397,6 @@ pip install -r requirements.txt
 ---
 
 # 12. Running Prediction Engine
-
-Example:
 
 ```python
 from app.predictor_engine import predict_student_risk
