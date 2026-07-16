@@ -93,6 +93,7 @@ StudentDrop-AI/
 │
 ├── models/
 │   │
+│   ├── ...pkl
 │   └── tuned_binary_ensemble.pkl
 │
 ├── reports/
@@ -102,9 +103,13 @@ StudentDrop-AI/
 │   ├── StudentDrop_Business Deck.pdf
 │   └── StudentDrop_Technical Deck.pdf
 │
-├── Student dropout.xlsx
+├── dataset/
+│   │
+│   └── Student dropout.xlsx
 │
-├── student-drop-out.ipynb
+├── notebook/
+│   │
+│   └── student-drop-out.ipynb
 │
 ├── app.py
 │
