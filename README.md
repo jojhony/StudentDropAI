@@ -89,6 +89,9 @@ StudentDrop-AI/
 │   ├── explain.py/
 │   ├── predictor.py/
 │   ├── preprocessing.py/
+│   ├── pdf_report.py/
+│   ├── bulk_predict.py/
+│   ├── utils.py/
 │   └── recomendation.py/
 │
 ├── models/
@@ -114,6 +117,10 @@ StudentDrop-AI/
 ├── app.py
 │
 ├── requirements.txt
+│
+├── config.py
+│
+├── test_predictor.py
 │
 ├── README.md
 │
