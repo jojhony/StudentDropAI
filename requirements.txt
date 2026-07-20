@@ -1,1 +1,11 @@
-
+pandas
+numpy
+scikit-learn
+joblib
+xgboost
+lightgbm
+shap
+PySide6
+reportlab
+openpyxl
+matplotlib
